@@ -1,0 +1,31 @@
+###> symfony/framework-bundle ###
+.env
+/public/bundles/
+/public/assets/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+.idea/*
+.docker-sync/*
+node_modules/*
+/public/uploads/images/*
+/public/uploads/files/*
+/public/uploads/images/article-photo/*
+/public/uploads/images/textures/*
+/public/stackify.json
+/yarn-error.log
+!/public/assets/fonts
+config/jwt/*
+!config/jwt/test
+
+.DS_Store
+._.DS_Store
+###> behat/symfony2-extension ###
+behat.yml
+###< behat/symfony2-extension ###
